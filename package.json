@@ -1,0 +1,22 @@
+{
+  "name": "profiling",
+  "version": "1.0.0",
+  "description": "Profiling Node.js",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": "20.11.1"
+  },
+  "volta": {
+    "node": "20.11.1"
+  },
+  "scripts": {
+    "start": "node --watch app.js",
+    "start:inspect": "node --inspect --watch app.js",
+    "start:profiler": "node --watch --prof app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
